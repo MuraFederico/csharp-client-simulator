@@ -84,6 +84,7 @@ void UpdateActivity(int i)
             developerActivityList.Remove(activity);
             File.WriteAllLines("C:\\boolean\\classe 56\\.Net\\csharp-client-simulator\\developer-activity.txt", developerActivityList);
         }
+        i = 0;
     }
     else
     {
